@@ -1,0 +1,20 @@
+[BASIC]
+good-names=i,j,k,n,x,y,ex,Run,_
+bad-names=foo,baz,toto,tutu,tata
+
+[DESIGN]
+max-args=8
+
+[FORMAT]
+# 'no-else-*': Allow 'else' after control-flow, better readability
+disable=no-else-break,
+        no-else-continue,
+        no-else-raise,
+        no-else-return,
+        wrong-import-order,           # prefer Emacs' python-mode ordering
+        ungrouped-imports,            # prefer Emacs' python-mode ordering
+        redefined-outer-name,         # false-positives in module tests
+        too-few-public-methods,       # only expose what's needed
+        too-many-ancestors,           # tk/ttk class hierarchy goes deep
+        too-many-instance-attributes,
+        duplicate-code,               # Too many false-positives

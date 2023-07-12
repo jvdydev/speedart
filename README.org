@@ -1,0 +1,14 @@
+#+title: Speedart - Automate creating speedpaints
+#+author: jvdydev
+
+=Speedart= is a small graphical frontend to automate and batch-process the creation of speedpaints.
+This way, /you/ can focus on creating without having to do the same tasks in video editing software over and over again.
+
+* Installation
+TBD
+
+* Features
+- automatic detection and removal of breaks (e.g. when you grabbed a drink during a drawing session)
+- speeding up the video
+- batch processing of multiple files
+- graphical interface with first-frame preview
